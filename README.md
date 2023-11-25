@@ -11,8 +11,7 @@ and pin 10 to be isolated from Vdd if required via solder jumpers, allowing 3.3 
 
 There are other important differences from the older chip. PORTG pins are limited to 2mA, beware directly connected LEDs, I
 used high brightness types via 2k on my board. Code for older 18F types is likely to need modification, my examples show some
-18F66K90 setup code. PORTG defaults to analogue, for digital output recongiguration is needed. There are important differences
-regarding ADC operation including reference selections and configuration registers, my ADC example code helps demonstrate.
+18F66K90 setup code. PORTG defaults to analogue inputs, for digital input recongiguration is needed. There are important differences
+regarding ADC operation including timing setup, voltage reference selection and configuration registers, see my ADC example code.
 
-My first code for the chip was HelloWorld.c, a hello was only achieved after figuring out that PORTG needed to be 
-reconfigured to digital as that is the on board LED port on my PCB.
+My first code for the chip was HelloWorld.c, a hello was achieved using basic code as for the 18F6410. 
