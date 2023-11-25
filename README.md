@@ -1,5 +1,5 @@
 # PIC18F66K90-code
-A collection of my early and basic test code for this higher end 8 bit PIC
+A collection of my early and basic test code for this higher end 8 bit PIC. 
 Just a basis for development...
 
 After coding for the TQFP64 PIC 18F6410 I wanted to try the more modern and powerful 18F66K90. At first glance the pinout
