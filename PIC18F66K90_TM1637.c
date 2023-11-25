@@ -1,5 +1,5 @@
 // *****************************************************************************
-// PIC 18F66K90 TM1637/keypad test code
+// PIC 18F66K90 TM1637/keypad test code for MPLAB XC8
 //
 // Test code that counts seconds on a TM1637 display
 // A development version of my TM1637 library code is used here which
@@ -13,6 +13,8 @@
 // Standard PicKit3 ICSP connections, MCLR to +5V via 10K resistor
 // RG3 pin 6 LED1 (red) + 2k resistor   (note 2mA limit this port)
 // RG4 pin 8 LED2 (green) + 2k resistor
+//
+// Add TM1637.c and TM1637.h to MPLAB XC8 project 
 //
 // Demo code only no warranty of any kind
 //
