@@ -15,3 +15,8 @@ used high brightness types via 2k on my board. Code for older 18F types is likel
 regarding ADC operation including timing setup, voltage reference selection and configuration registers, see my ADC example code.
 
 My first code for the chip was HelloWorld.c, a hello was achieved using basic code as for the 18F6410. 
+
+PIC18F66K90_TM1637.c is test code written to demonstrate use of the TM1637 display chip with this PIC. A 1 second
+counter is implemented. A development version of my TM1637 library code is used here which includes a keyscan()
+function allowing a 2x8 key matrix to be read. The displayed count is replaced by a key number if a key is pressed.
+Note that the display dio line must be explicitly configured as a digital not analogue input, caught me out initially...
